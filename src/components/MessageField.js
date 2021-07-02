@@ -19,7 +19,7 @@ return <TextField
                 if (text === '') return;
 
                 if ( e.key === 'Enter') {
-                    pushMessage({ name: 'yuhi', text });
+                    pushMessage({ name, text });
                     setText('');
                   e.preventDefault();
   
